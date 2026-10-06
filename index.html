@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diwealth Beauty Store | Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
++                                   
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">DIWEALTH BEAUTY STORE<span>.</span></a>
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="small-title">BEAUTY • STYLE • ELEGANCE</p>
+
+            <h1>
+                Beautiful accessories
+                <span>for beautiful hair.</span>
+            </h1>
+
+            <p>
+                Discover our collection of stylish and elegant
+                hair accessories designed to complete your look.
+            </p>
+
+            <a href="products.html" class="btn">Shop Products</a>
+        </div>
+    </section>
+
+
+    <section class="featured">
+        <div class="section-heading">
+            <p>OUR COLLECTION</p>
+            <h2>Featured Products</h2>
+        </div>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/img 4.png" alt="Hair accessory">
+                </div>
+
+                <div class="product-info">
+                    <h3>DARLING HAIR PRODUCTS</h3>
+                    <!-- <p>₦5,000</p> -->
+                    <a href="contacts.html">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/img 2.png" alt="Hair accessory">
+                </div>
+
+                <div class="product-info">
+                    <h3>LUSH HAIR PRODUCTS</h3>
+                    <!-- <p>₦4,500</p> -->
+                    <a href="contacts.html">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/img 3.jpeg" alt="Hair accessory">
+                </div>
+
+                <div class="product-info">
+                    <h3>X-PRESSION HAIR PRODUCTS</h3>
+                    <!-- <p>₦3,000</p> -->
+                    <a href="contacts.html">Order Now</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="center-button">
+            <a href="products.html" class="btn dark-btn">
+                View All Products
+            </a>
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <div class="footer-content">
+        <h2>DIWEALTH BEAUTY STORE<span>.</span></h2>
+        <p>Beautiful accessories for every style.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contacts.html">Contact</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Diwealth Beauty Store. All rights reserved.
+        </p>
+    </div>
+</footer>
+
+
+<script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+    });
+</script>
+
+</body>
+</html>                                                                                                                  

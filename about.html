@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diwealth Beauty Store | About</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            DIWEALTH BEAUTY STORE<span>.</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+
+<section class="page-header">
+    <p>GET TO KNOW US</p>
+    <h1>About Us</h1>
+</section>
+
+
+<section class="about-section">
+
+    <div class="about-image">
+        <img src="images/img 6.jpg" alt="Our hair accessories">
+    </div>
+
+    <div class="about-content">
+
+        <p class="small-title">OUR STORY</p>
+
+        <h2>Accessories that make you shine.</h2>
+
+        <p>
+            Welcome to Diwealth Beauty Store. We are passionate about
+            providing beautiful, stylish and affordable accessories
+            that help you express your personality.
+        </p>
+
+        <p>
+            From elegant hair clips to beautiful scrunchies and
+            premium hair bands, our collection is carefully selected
+            for people who love fashion and beautiful details.
+        </p>
+
+        <p>
+            Our goal is simple — to make every hairstyle look
+            even more beautiful.
+        </p>
+
+        <a href="products.html" class="btn">
+            Explore Products
+        </a>
+
+    </div>
+
+</section>
+
+
+<footer>
+    <div class="footer-content">
+        <h2>DIWEALTH BEAUTY STORE<span>.</span></h2>
+        <p>Beautiful accessories for every style.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contacts.html">Contact</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Diwealth Beauty Store. All rights reserved.
+        </p>
+    </div>
+</footer>
+
+
+<script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+    });
+</script>
+
+</body>
+</html>
